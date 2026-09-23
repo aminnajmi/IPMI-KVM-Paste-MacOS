@@ -1,0 +1,13 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local build and packaging artifacts
+build/
+dist/
+.pyinstaller/
+Universal IPMI Paste.spec
+
+# Local application logs
+*.log
