@@ -1,6 +1,8 @@
 """macOS keyboard injection for the currently focused application."""
 from __future__ import annotations
 
+from time import sleep
+
 try:
     from ApplicationServices import (
         AXIsProcessTrusted,
@@ -24,6 +26,7 @@ _KEYS = {
 }
 _SHIFTED = {"!": "1", "@": "2", "#": "3", "$": "4", "%": "5", "^": "6", "&": "7", "*": "8", "(": "9", ")": "0", "_": "-", "+": "=", "{": "[", "}": "]", "|": "\\", ":": ";", '"': "'", "<": ",", ">": ".", "?": "/", "~": "`"}
 _MODIFIER_KEYS = (56, 59, 58, 55)  # shift, control, option, command
+_SHIFT_SETTLE_SECONDS = 0.01
 _BROWSER_BUNDLE_IDS = {
     "com.apple.Safari",
     "com.google.Chrome",
@@ -57,15 +60,23 @@ class KeyboardInjector:
         except Exception:
             pass
 
-    def _post(self, keycode: int, key_down: bool) -> None:
+    def _post(self, keycode: int, key_down: bool, flags: int = 0) -> None:
         event = Quartz.CGEventCreateKeyboardEvent(None, keycode, key_down)
+        if flags:
+            Quartz.CGEventSetFlags(event, flags)
         Quartz.CGEventPost(Quartz.kCGHIDEventTap, event)
 
     def _tap(self, keycode: int) -> None:
         self._post(keycode, True); self._post(keycode, False)
 
     def _tap_with_shift(self, keycode: int) -> None:
-        self._post(56, True); self._tap(keycode); self._post(56, False)
+        shift = Quartz.kCGEventFlagMaskShift
+        self._post(56, True)
+        sleep(_SHIFT_SETTLE_SECONDS)
+        self._post(keycode, True, shift)
+        self._post(keycode, False, shift)
+        sleep(_SHIFT_SETTLE_SECONDS)
+        self._post(56, False)
 
     def _type_unicode(self, char: str, keycode: int = 0) -> None:
         for key_down in (True, False):
@@ -87,7 +98,7 @@ class KeyboardInjector:
         if char == "\n": self._tap(36); return  # Return
         if char == "\t": self._tap(48); return  # Tab
         if char == "\r": return
-        if self._browser_target and char.isprintable():
+        if self._browser_target and char.isprintable() and not char.isascii():
             self._type_unicode(char, self._keycode_for_character(char))
             return
         if char.isascii() and char.isalpha():

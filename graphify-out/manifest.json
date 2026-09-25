@@ -1,0 +1,80 @@
+{
+  "__init__.py": {
+    "mtime": 1790180815.4021578,
+    "seen": 1790194923.857449,
+    "ast_hash": "a8b4b3fff863f39d9fb84fa8ef326327",
+    "semantic_hash": "a8b4b3fff863f39d9fb84fa8ef326327"
+  },
+  "build-macos.sh": {
+    "mtime": 1790180815.402338,
+    "seen": 1790194923.857454,
+    "ast_hash": "131d852795d3c0dfd43efbd99b194353",
+    "semantic_hash": "131d852795d3c0dfd43efbd99b194353"
+  },
+  "build.ps1": {
+    "mtime": 1790180815.402605,
+    "seen": 1790194923.857457,
+    "ast_hash": "9fda4b39fbfcd3a2f6363af97fb1cbd6",
+    "semantic_hash": "9fda4b39fbfcd3a2f6363af97fb1cbd6"
+  },
+  "gui.py": {
+    "mtime": 1790180815.4028592,
+    "seen": 1790194923.8574588,
+    "ast_hash": "970f93d03dbf3736cd9a82a95276972e",
+    "semantic_hash": "970f93d03dbf3736cd9a82a95276972e"
+  },
+  "hotkeys.py": {
+    "mtime": 1790180815.4030278,
+    "seen": 1790194923.85746,
+    "ast_hash": "1ee17cca3d703beb1f96e957e61f6d19",
+    "semantic_hash": "1ee17cca3d703beb1f96e957e61f6d19"
+  },
+  "keyboard.py": {
+    "mtime": 1790180815.4032295,
+    "seen": 1790194923.857461,
+    "ast_hash": "ec03bbf83c9964b756091178f5c5cd09",
+    "semantic_hash": "ec03bbf83c9964b756091178f5c5cd09"
+  },
+  "logger.py": {
+    "mtime": 1790180815.4034927,
+    "seen": 1790194923.8574631,
+    "ast_hash": "04c7e99e7eb37e1a39563787c9c4b46a",
+    "semantic_hash": "04c7e99e7eb37e1a39563787c9c4b46a"
+  },
+  "main.py": {
+    "mtime": 1790180815.4037294,
+    "seen": 1790194923.857464,
+    "ast_hash": "7f80c09f90b4aa6fed685e05817af749",
+    "semantic_hash": "7f80c09f90b4aa6fed685e05817af749"
+  },
+  "settings.py": {
+    "mtime": 1790180815.4040742,
+    "seen": 1790194923.857465,
+    "ast_hash": "46850b4877eb2fce7799f456f246553a",
+    "semantic_hash": "46850b4877eb2fce7799f456f246553a"
+  },
+  "typing_engine.py": {
+    "mtime": 1790180815.4042764,
+    "seen": 1790194923.8574662,
+    "ast_hash": "95fd1b0aaaa93a7fb8aae433579b6f76",
+    "semantic_hash": "95fd1b0aaaa93a7fb8aae433579b6f76"
+  },
+  "utils.py": {
+    "mtime": 1790180815.404523,
+    "seen": 1790194923.857467,
+    "ast_hash": "970921858f8152a030fabb022eb67fa8",
+    "semantic_hash": "970921858f8152a030fabb022eb67fa8"
+  },
+  "README.md": {
+    "mtime": 1790180815.40169,
+    "seen": 1790194923.8574688,
+    "ast_hash": "c9ddf7bd603af84cccdee04ae87f61e1",
+    "semantic_hash": "c9ddf7bd603af84cccdee04ae87f61e1"
+  },
+  "requirements.txt": {
+    "mtime": 1790180815.4039161,
+    "seen": 1790194923.85747,
+    "ast_hash": "9594e2244787c76a007640283464adc2",
+    "semantic_hash": "9594e2244787c76a007640283464adc2"
+  }
+}
