@@ -36,4 +36,6 @@ The app bundle is created at `dist/Universal IPMI Paste.app`. You can move that 
 ## Notes
 
 This build uses the ANSI/US physical keyboard layout for ASCII characters. Non-ASCII characters are sent as macOS Unicode events; whether a remote KVM accepts those is determined by the KVM implementation.
+
+## Powered by graphify for easier development
 <img width="1395" height="957" alt="Screenshot 2026-09-25 at 20 10 58" src="https://github.com/user-attachments/assets/38c3cfa5-98af-48fc-968f-674f0394c665" />
