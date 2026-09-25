@@ -62,11 +62,11 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "keyboardinjector",
       "source_file": "keyboard.py",
-      "source_location": "L40"
+      "source_location": "L37"
     },
     {
       "id": "typing_engine_typingengine",
@@ -100,7 +100,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "._update_progress()",
       "source_file": "gui.py",
@@ -112,7 +112,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "main.py",
@@ -124,7 +124,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "format_remaining()",
       "source_file": "utils.py",
@@ -376,11 +376,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": "keyboard.py",
-      "source_location": "L47"
+      "source_location": "L44"
     },
     {
       "id": "keyboard_keyboardinjector_keycode_for_character",
@@ -388,11 +388,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "._keycode_for_character()",
       "source_file": "keyboard.py",
-      "source_location": "L88"
+      "source_location": "L77"
     },
     {
       "id": "keyboard_keyboardinjector_post",
@@ -400,11 +400,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "._post()",
       "source_file": "keyboard.py",
-      "source_location": "L63"
+      "source_location": "L60"
     },
     {
       "id": "keyboard_keyboardinjector_release_modifiers",
@@ -412,11 +412,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": ".release_modifiers()",
       "source_file": "keyboard.py",
-      "source_location": "L110"
+      "source_location": "L99"
     },
     {
       "id": "keyboard_keyboardinjector_tap",
@@ -424,11 +424,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "._tap()",
       "source_file": "keyboard.py",
-      "source_location": "L69"
+      "source_location": "L64"
     },
     {
       "id": "keyboard_keyboardinjector_tap_with_shift",
@@ -436,11 +436,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "._tap_with_shift()",
       "source_file": "keyboard.py",
-      "source_location": "L72"
+      "source_location": "L67"
     },
     {
       "id": "keyboard_keyboardinjector_type_character",
@@ -448,11 +448,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": ".type_character()",
       "source_file": "keyboard.py",
-      "source_location": "L97"
+      "source_location": "L86"
     },
     {
       "id": "keyboard_keyboardinjector_type_unicode",
@@ -460,11 +460,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "code",
       "norm_label": "._type_unicode()",
       "source_file": "keyboard.py",
-      "source_location": "L81"
+      "source_location": "L70"
     },
     {
       "id": "typing_engine_typingengine_init",
@@ -627,7 +627,7 @@
       "label": "gui.py",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "gui.py",
       "source_file": "gui.py",
@@ -638,7 +638,7 @@
       "label": "hotkeys.py",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "hotkeys.py",
       "source_file": "hotkeys.py",
@@ -649,10 +649,21 @@
       "label": "main.py",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "main.py",
       "source_file": "main.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "typing_engine",
+      "label": "typing_engine.py",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Application Support",
+      "file_type": "code",
+      "norm_label": "typing_engine.py",
+      "source_file": "typing_engine.py",
       "source_location": "L1"
     },
     {
@@ -660,7 +671,7 @@
       "label": "utils.py",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "code",
       "norm_label": "utils.py",
       "source_file": "utils.py",
@@ -671,7 +682,7 @@
       "label": "PySide6 user interface for IPMI Paste.",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "rationale",
       "norm_label": "pyside6 user interface for ipmi paste.",
       "source_file": "gui.py",
@@ -682,7 +693,7 @@
       "label": "Global hotkeys implemented with pynput on macOS and Windows.",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "rationale",
       "norm_label": "global hotkeys implemented with pynput on macos and windows.",
       "source_file": "hotkeys.py",
@@ -693,10 +704,21 @@
       "label": "Application entry point.",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "rationale",
       "norm_label": "application entry point.",
       "source_file": "main.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "typing_engine_rationale_1",
+      "label": "Threaded, interruptible typing engine.",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Application Support",
+      "file_type": "rationale",
+      "norm_label": "threaded, interruptible typing engine.",
+      "source_file": "typing_engine.py",
       "source_location": "L1"
     },
     {
@@ -704,7 +726,7 @@
       "label": "Small shared presentation helpers.",
       "_origin": "ast",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "file_type": "rationale",
       "norm_label": "small shared presentation helpers.",
       "source_file": "utils.py",
@@ -821,15 +843,15 @@
       "source_location": "L135"
     },
     {
-      "id": "keyboard_rationale_41",
+      "id": "keyboard_rationale_38",
       "label": "Posts hardware-style keyboard events at the macOS HID event tap. macOS requires\u2026",
       "_origin": "ast",
       "community": 4,
-      "community_name": "KeyboardInjector",
+      "community_name": "Keyboard Injection",
       "file_type": "rationale",
       "norm_label": "posts hardware-style keyboard events at the macos hid event tap. macos requires...",
       "source_file": "keyboard.py",
-      "source_location": "L41"
+      "source_location": "L38"
     },
     {
       "id": "typing_engine_rationale_12",
@@ -858,21 +880,10 @@
       "label": "keyboard.py",
       "_origin": "ast",
       "community": 7,
-      "community_name": "typing_engine.py",
+      "community_name": "macOS Input APIs",
       "file_type": "code",
       "norm_label": "keyboard.py",
       "source_file": "keyboard.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "typing_engine",
-      "label": "typing_engine.py",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "typing_engine.py",
-      "file_type": "code",
-      "norm_label": "typing_engine.py",
-      "source_file": "typing_engine.py",
       "source_location": "L1"
     },
     {
@@ -880,21 +891,10 @@
       "label": "macOS keyboard injection for the currently focused application.",
       "_origin": "ast",
       "community": 7,
-      "community_name": "typing_engine.py",
+      "community_name": "macOS Input APIs",
       "file_type": "rationale",
       "norm_label": "macos keyboard injection for the currently focused application.",
       "source_file": "keyboard.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "typing_engine_rationale_1",
-      "label": "Threaded, interruptible typing engine.",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "typing_engine.py",
-      "file_type": "rationale",
-      "norm_label": "threaded, interruptible typing engine.",
-      "source_file": "typing_engine.py",
       "source_location": "L1"
     },
     {
@@ -1194,7 +1194,7 @@
       "label": "datetime",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "datetime",
@@ -1206,7 +1206,7 @@
       "label": "pynput",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "pynput",
@@ -1218,7 +1218,7 @@
       "label": "pyside6_qtcore",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "pyside6_qtcore",
@@ -1230,7 +1230,7 @@
       "label": "pyside6_qtgui",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "pyside6_qtgui",
@@ -1242,7 +1242,7 @@
       "label": "pyside6_qtwidgets",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "pyside6_qtwidgets",
@@ -1254,10 +1254,46 @@
       "label": "sys",
       "_origin": "semantic",
       "community": 0,
-      "community_name": "gui.py",
+      "community_name": "Application Support",
       "external": true,
       "file_type": "concept",
       "norm_label": "sys",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "threading",
+      "label": "threading",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "Application Support",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "threading",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "time",
+      "label": "time",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "Application Support",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "time",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "typing",
+      "label": "typing",
+      "_origin": "semantic",
+      "community": 0,
+      "community_name": "Application Support",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "typing",
       "source_file": "",
       "type": "external"
     },
@@ -1314,7 +1350,7 @@
       "label": "appkit",
       "_origin": "semantic",
       "community": 7,
-      "community_name": "typing_engine.py",
+      "community_name": "macOS Input APIs",
       "external": true,
       "file_type": "concept",
       "norm_label": "appkit",
@@ -1326,7 +1362,7 @@
       "label": "applicationservices",
       "_origin": "semantic",
       "community": 7,
-      "community_name": "typing_engine.py",
+      "community_name": "macOS Input APIs",
       "external": true,
       "file_type": "concept",
       "norm_label": "applicationservices",
@@ -1338,46 +1374,10 @@
       "label": "quartz",
       "_origin": "semantic",
       "community": 7,
-      "community_name": "typing_engine.py",
+      "community_name": "macOS Input APIs",
       "external": true,
       "file_type": "concept",
       "norm_label": "quartz",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "threading",
-      "label": "threading",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "typing_engine.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "threading",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "time",
-      "label": "time",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "typing_engine.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "time",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "typing",
-      "label": "typing",
-      "_origin": "semantic",
-      "community": 7,
-      "community_name": "typing_engine.py",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "typing",
       "source_file": "",
       "type": "external"
     }
@@ -1596,7 +1596,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "keyboard.py",
-      "source_location": "L111",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -1608,7 +1608,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "keyboard.py",
-      "source_location": "L70",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -1620,43 +1620,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "keyboard.py",
-      "source_location": "L74",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
-      "source": "keyboard_keyboardinjector_type_character",
-      "target": "keyboard_keyboardinjector_keycode_for_character",
+      "source": "keyboard_keyboardinjector_tap_with_shift",
+      "target": "keyboard_keyboardinjector_tap",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "keyboard.py",
-      "source_location": "L102",
-      "weight": 1.0
-    },
-    {
-      "source": "keyboard_keyboardinjector_type_character",
-      "target": "keyboard_keyboardinjector_type_unicode",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "keyboard.py",
-      "source_location": "L102",
-      "weight": 1.0
-    },
-    {
-      "source": "keyboard_keyboardinjector_type_character",
-      "target": "keyboard_keyboardinjector_tap_with_shift",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "keyboard.py",
-      "source_location": "L105",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -1668,7 +1644,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "keyboard.py",
-      "source_location": "L98",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "keyboard_keyboardinjector_type_character",
+      "target": "keyboard_keyboardinjector_keycode_for_character",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "keyboard.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "keyboard_keyboardinjector_type_character",
+      "target": "keyboard_keyboardinjector_type_unicode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "keyboard.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "keyboard_keyboardinjector_type_character",
+      "target": "keyboard_keyboardinjector_tap_with_shift",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "keyboard.py",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -1836,7 +1848,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "keyboard.py",
-      "source_location": "L13",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -2064,19 +2076,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "keyboard.py",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "keyboard",
-      "target": "time",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "keyboard.py",
-      "source_location": "L4",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -2088,7 +2088,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "keyboard.py",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2299,7 +2299,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L40",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -2645,24 +2645,13 @@
     },
     {
       "source": "keyboard_keyboardinjector",
-      "target": "keyboard_keyboardinjector_release_modifiers",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "keyboard.py",
-      "source_location": "L110",
-      "weight": 1.0
-    },
-    {
-      "source": "keyboard_keyboardinjector",
       "target": "keyboard_keyboardinjector_init",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L47",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -2673,7 +2662,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L63",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -2684,7 +2673,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L69",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -2695,7 +2684,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L72",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -2706,7 +2695,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L81",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -2717,7 +2706,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L88",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -2728,7 +2717,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L97",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "keyboard_keyboardinjector",
+      "target": "keyboard_keyboardinjector_release_modifiers",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "keyboard.py",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -2919,14 +2919,14 @@
       "weight": 1.0
     },
     {
-      "source": "keyboard_rationale_41",
+      "source": "keyboard_rationale_38",
       "target": "keyboard_keyboardinjector",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "keyboard.py",
-      "source_location": "L41",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -3250,5 +3250,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "64d5f16a0b0117f48d13d6b2a606eef527689427"
+  "built_at_commit": "f8fcaf0dbf2dd4bc2564a998c54056564778ebfc"
 }

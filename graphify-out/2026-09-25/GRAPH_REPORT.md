@@ -1,7 +1,7 @@
-# Graph Report - IPMI-KVM-Paste-MacOS  (2026-09-25)
+# Graph Report - IPMI-KVM-Paste-MacOS  (2026-09-24)
 
 ## Corpus Check
-- 12 files · ~2,490 words
+- 12 files · ~2,462 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .spec 1)
 
@@ -11,19 +11,19 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `64d5f16a`
+- Built from commit: `f8fcaf0d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- gui.py
+- Application Support
 - Settings and Logging
 - Main Window Workflow
 - IPMI Console Concepts
-- KeyboardInjector
+- Keyboard Injection
 - Typing Engine
 - Global Hotkeys
-- typing_engine.py
+- macOS Input APIs
 - Packaging and Build
 - Package Metadata
 - Clipboard Concepts
@@ -57,9 +57,9 @@
 
 ## Communities (12 total, 7 thin omitted)
 
-### Community 0 - "gui.py"
-Cohesion: 0.15
-Nodes (12): datetime, PySide6 user interface for IPMI Paste., Global hotkeys implemented with pynput on macOS and Windows., main(), Application entry point., pynput, pyside6_qtcore, pyside6_qtgui (+4 more)
+### Community 0 - "Application Support"
+Cohesion: 0.12
+Nodes (16): datetime, PySide6 user interface for IPMI Paste., Global hotkeys implemented with pynput on macOS and Windows., main(), Application entry point., pynput, pyside6_qtcore, pyside6_qtgui (+8 more)
 
 ### Community 1 - "Settings and Logging"
 Cohesion: 0.13
@@ -73,9 +73,9 @@ Nodes (4): MainWindow, Choose an action-button arrangement based on available wi
 Cohesion: 0.20
 Nodes (14): Accessibility permission, ANSI/US physical keyboard layout, Browser implementations, Global hotkeys, Input Monitoring, IPMI/KVM console, Java console implementations, macOS (+6 more)
 
-### Community 7 - "typing_engine.py"
-Cohesion: 0.22
-Nodes (8): appkit, applicationservices, macOS keyboard injection for the currently focused application., quartz, threading, time, typing, Threaded, interruptible typing engine.
+### Community 7 - "macOS Input APIs"
+Cohesion: 0.40
+Nodes (4): appkit, applicationservices, macOS keyboard injection for the currently focused application., quartz
 
 ## Knowledge Gaps
 - **8 isolated node(s):** `build-macos.sh script`, `PYINSTALLER_CONFIG_DIR`, `Clipboard paste`, `Accessibility permission`, `macOS` (+3 more)
@@ -85,12 +85,12 @@ Nodes (8): appkit, applicationservices, macOS keyboard injection for the current
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `MainWindow` connect `Main Window Workflow` to `gui.py`, `Settings and Logging`, `Typing Engine`, `Global Hotkeys`?**
-  _High betweenness centrality (0.249) - this node is a cross-community bridge._
-- **Why does `TypingEngine` connect `Typing Engine` to `gui.py`, `Settings and Logging`, `Main Window Workflow`, `KeyboardInjector`, `typing_engine.py`?**
-  _High betweenness centrality (0.210) - this node is a cross-community bridge._
-- **Why does `KeyboardInjector` connect `KeyboardInjector` to `Typing Engine`, `typing_engine.py`?**
-  _High betweenness centrality (0.133) - this node is a cross-community bridge._
+- **Why does `MainWindow` connect `Main Window Workflow` to `Application Support`, `Settings and Logging`, `Typing Engine`, `Global Hotkeys`?**
+  _High betweenness centrality (0.250) - this node is a cross-community bridge._
+- **Why does `TypingEngine` connect `Typing Engine` to `Application Support`, `Settings and Logging`, `Main Window Workflow`, `Keyboard Injection`?**
+  _High betweenness centrality (0.213) - this node is a cross-community bridge._
+- **Why does `KeyboardInjector` connect `Keyboard Injection` to `Application Support`, `Typing Engine`, `macOS Input APIs`?**
+  _High betweenness centrality (0.134) - this node is a cross-community bridge._
 - **Are the 3 inferred relationships involving `MainWindow` (e.g. with `GlobalHotkeys` and `SettingsStore`) actually correct?**
   _`MainWindow` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `TypingEngine` (e.g. with `MainWindow` and `KeyboardInjector`) actually correct?**
